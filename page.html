@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Global Gazette — Wednesday 25 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif;
+    background: #f8f4e9; color: #161616;
+    padding: 14px 26px 12px;
+  }
+  .frame { border: 3px solid #161616; height: 100%; padding: 8px 22px 7px; display: flex; flex-direction: column; }
+  .rule-thick { border-top: 5px solid #161616; }
+  .rule-thin { border-top: 1px solid #161616; }
+
+  /* ---- Masthead ---- */
+  .masthead { text-align: center; padding: 1px 0 6px; }
+  .masthead .over { font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 6px; color: #6b6b6b; }
+  .masthead h1 { font-size: 62px; line-height: 1; font-weight: 900; letter-spacing: 1px; margin: 3px 0 4px; }
+  .masthead .under { font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 4px; color: #6b6b6b; }
+
+  /* ---- Date band: huge and unmissable ---- */
+  .dateband { text-align: center; padding: 7px 0 6px; border-bottom: 5px solid #161616; }
+  .dateband .date { font-size: 39px; line-height: 1; font-weight: 900; letter-spacing: 2px; color: #9b1b1e; }
+  .dateband .sub { font-family: Arial, Helvetica, sans-serif; font-size: 13px; letter-spacing: 3px; color: #555; margin-top: 4px; }
+
+  /* ---- Hero ---- */
+  .hero { display: flex; gap: 22px; padding: 10px 0 9px; border-bottom: 2px solid #161616; }
+  .hero-text { width: 57%; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: 2px; color: #9b1b1e; }
+  .hero-text h2 { font-size: 44px; line-height: 1.02; font-weight: 900; margin: 6px 0 7px; }
+  .hero-text p { font-size: 17px; line-height: 1.3; }
+  .hero-text p.byline { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666; margin-top: 7px; letter-spacing: 1px; }
+  .hero-art { width: 43%; border: 2px solid #161616; background: #fff; }
+  .hero-art svg { width: 100%; height: 100%; display: block; }
+
+  /* ---- Story rows ---- */
+  .row { display: flex; flex: 1; }
+  .row + .row { border-top: 1px solid #161616; }
+  .story { flex: 1; padding: 8px 14px 6px; }
+  .story + .story { border-left: 1px solid #161616; }
+  .story .tag { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 800; letter-spacing: 2px; color: #9b1b1e; }
+  .story h3 { font-size: 23px; line-height: 1.08; font-weight: 900; margin: 4px 0 5px; }
+  .story p { font-size: 15px; line-height: 1.28; }
+  .story .art { height: 52px; margin-top: 6px; border-top: 1px solid #c9c2ae; padding-top: 5px; }
+  .story .art svg { width: 100%; height: 100%; display: block; }
+
+  /* ---- Also today strip ---- */
+  .also { border-top: 2px solid #161616; padding: 6px 2px 0; font-family: Arial, Helvetica, sans-serif; }
+  .also .label { font-size: 12px; font-weight: 800; letter-spacing: 3px; color: #9b1b1e; margin-bottom: 4px; }
+  .also ul { list-style: none; display: flex; gap: 18px; }
+  .also li { flex: 1; font-size: 13.5px; line-height: 1.28; color: #333; }
+  .also li b { color: #161616; }
+
+  .footer { text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 2px; color: #777; padding-top: 6px; }
+</style>
+</head>
+<body>
+<div class="frame">
+
+  <div class="masthead">
+    <div class="over">EST. 2026 &nbsp;•&nbsp; THE WORLD IN ONE PAGE &nbsp;•&nbsp; EVERY MORNING</div>
+    <h1>The Global Gazette</h1>
+    <div class="under">ALL THE WORLD&rsquo;S NEWS &mdash; INDEPENDENT &amp; FREE</div>
+  </div>
+  <div class="rule-thick"></div>
+
+  <div class="dateband">
+    <div class="date">WEDNESDAY 25 NOVEMBER 2026</div>
+    <div class="sub">THE DAY&rsquo;S NEWS &nbsp;•&nbsp; SEVEN STORIES FROM FIVE CONTINENTS</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      <div class="kicker">CYBER ATTACK &nbsp;•&nbsp; UNITED STATES</div>
+      <h2>U.S. Spy Agencies Hit by Cyber Breach</h2>
+      <p>The CIA and the Office of the Director of National Intelligence discover a breach that exposed some unclassified information, the <i>New York Times</i> reports &mdash; a rare intrusion at the heart of American intelligence.</p>
+      <p class="byline">WASHINGTON &nbsp;•&nbsp; THE HUNT FOR HOW THE INTRUDERS GOT IN</p>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Globe with a warning crack">
+        <rect x="0" y="0" width="400" height="260" fill="#eef1f4"/>
+        <circle cx="200" cy="128" r="96" fill="#2e5a88" stroke="#161616" stroke-width="3"/>
+        <path d="M120 128 a80 80 0 0 1 160 0" fill="none" stroke="#7fa8c9" stroke-width="2"/>
+        <path d="M104 128 h192 M200 32 v192" stroke="#7fa8c9" stroke-width="2" fill="none"/>
+        <path d="M150 60 q30 26 12 58 q-14 26 8 52 q18 22 6 44" fill="none" stroke="#8fb3d1" stroke-width="2"/>
+        <path d="M250 52 q-26 30 -10 62 q12 26 -8 54 q-14 20 -4 42" fill="none" stroke="#8fb3d1" stroke-width="2"/>
+        <path d="M200 30 L246 96 L214 96 L248 168 L196 96 L228 96 Z" fill="#9b1b1e" stroke="#161616" stroke-width="2"/>
+        <circle cx="200" cy="128" r="96" fill="none" stroke="#161616" stroke-width="3"/>
+        <text x="200" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" letter-spacing="3" fill="#9b1b1e">BREACH AT THE TOP</text>
+      </svg>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="story">
+      <div class="tag">SPACE &nbsp;•&nbsp; CHINA</div>
+      <h3>China Launches Shenzhou-24 Into Orbit</h3>
+      <p>Three astronauts lift off from Jiuquan &mdash; including the first Pakistani in space &mdash; on a mission to the Chinese space station.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <path d="M60 62 L78 18 L96 62 Z" fill="#2e5a88" stroke="#161616" stroke-width="2"/>
+          <circle cx="78" cy="44" r="6" fill="#fff" stroke="#161616" stroke-width="2"/>
+          <path d="M60 62 q-12 8 -8 2 M96 62 q12 8 8 2" stroke="#e07830" stroke-width="4" fill="none"/>
+          <path d="M120 20 h150 M120 34 h170 M120 48 h140" stroke="#c9c2ae" stroke-width="3"/>
+          <circle cx="272" cy="20" r="7" fill="#9b1b1e"/>
+        </svg>
+      </div>
+    </div>
+    <div class="story">
+      <div class="tag">TECH &amp; LAW &nbsp;•&nbsp; UNITED STATES</div>
+      <h3>Huawei Convicted in U.S. Trade-Secrets Trial</h3>
+      <p>A jury finds the Chinese telecom giant guilty of conspiracy to steal trade secrets and bank fraud over its Iran business.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <rect x="118" y="14" width="64" height="42" rx="4" fill="#2e5a88" stroke="#161616" stroke-width="2"/>
+          <rect x="128" y="24" width="44" height="22" fill="#fff" stroke="#161616" stroke-width="1.5"/>
+          <path d="M138 30 h24 M138 38 h24" stroke="#161616" stroke-width="2"/>
+          <path d="M60 44 h40 M200 44 h40" stroke="#161616" stroke-width="3"/>
+          <path d="M60 44 L80 24 L100 44 M200 44 L220 24 L240 44" stroke="#161616" stroke-width="2" fill="none"/>
+          <circle cx="80" cy="24" r="3" fill="#9b1b1e"/><circle cx="220" cy="24" r="3" fill="#9b1b1e"/>
+        </svg>
+      </div>
+    </div>
+    <div class="story">
+      <div class="tag">WAR &nbsp;•&nbsp; UKRAINE</div>
+      <h3>Putin Vows Revenge as Ukraine Hits Oil Plants</h3>
+      <p>Moscow says retaliation is &ldquo;inevitable&rdquo; after Kyiv&rsquo;s strikes on refineries; a Russian attack on Zaporizhzhia kills two and wounds 44.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <path d="M40 62 V30 h70 v32 Z" fill="#8a8a8a" stroke="#161616" stroke-width="2"/>
+          <path d="M55 30 V14 h10 v16 M85 30 V10 h10 v20" stroke="#161616" stroke-width="3" fill="none"/>
+          <path d="M150 62 L168 26 L186 62 Z" fill="#e07830" stroke="#161616" stroke-width="2"/>
+          <path d="M168 26 q-14 -12 0 -18 q10 6 0 18" fill="#9b1b1e"/>
+          <path d="M210 62 q20 -18 44 -6 q18 10 30 -2" stroke="#161616" stroke-width="2" fill="none"/>
+          <circle cx="262" cy="40" r="6" fill="#9b1b1e"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="story">
+      <div class="tag">BUSINESS &nbsp;•&nbsp; UNITED STATES</div>
+      <h3>Trump Weighs Pardon for Nvidia Chief Huang</h3>
+      <p>The president says a pardon for Jensen Huang is &ldquo;always an option&rdquo; and floats a U.S. government stake in the chipmaker.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <rect x="120" y="12" width="60" height="46" rx="4" fill="#161616"/>
+          <rect x="132" y="24" width="36" height="22" fill="#2e5a88"/>
+          <path d="M132 35 h36 M150 24 v22" stroke="#fff" stroke-width="2"/>
+          <circle cx="60" cy="35" r="16" fill="none" stroke="#9b1b1e" stroke-width="3"/>
+          <path d="M60 22 v26 M47 35 h26" stroke="#9b1b1e" stroke-width="3"/>
+          <circle cx="240" cy="35" r="16" fill="none" stroke="#2e5a88" stroke-width="3"/>
+          <text x="240" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e5a88">$</text>
+        </svg>
+      </div>
+    </div>
+    <div class="story">
+      <div class="tag">MIDDLE EAST &nbsp;•&nbsp; YEMEN</div>
+      <h3>Houthis Advance on Aden as Iran Tensions Rise</h3>
+      <p>Houthi fighters push to within 60 km of Aden; Israel says Iran is developing chemical weapons, and the U.S. warns its citizens in the region.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <path d="M30 62 L70 18 L110 62 Z" fill="#c9b458" stroke="#161616" stroke-width="2"/>
+          <path d="M70 18 v-8 M70 10 h14" stroke="#161616" stroke-width="2"/>
+          <path d="M130 62 h120 M130 50 h120 M150 38 h80" stroke="#161616" stroke-width="2"/>
+          <path d="M262 62 L276 34 L290 62 Z" fill="#9b1b1e" stroke="#161616" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+    <div class="story">
+      <div class="tag">SPORT &nbsp;•&nbsp; AFRICA</div>
+      <h3>Senegal Win Back Africa Cup Title</h3>
+      <p>The Court of Arbitration for Sport overturns the chaotic final&rsquo;s ruling and hands the trophy back to Senegal, ten months on.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="300" height="70" fill="#f8f4e9"/>
+          <path d="M138 12 h24 l-4 30 a12 12 0 0 1 -16 0 Z" fill="#c9b458" stroke="#161616" stroke-width="2"/>
+          <path d="M138 18 q-16 2 -10 14 q6 8 14 4 M162 18 q16 2 10 14 q-6 8 -14 4" fill="none" stroke="#161616" stroke-width="2"/>
+          <rect x="132" y="54" width="36" height="6" fill="#161616"/>
+          <circle cx="80" cy="35" r="17" fill="#fff" stroke="#161616" stroke-width="2"/>
+          <path d="M80 18 v34 M63 35 h34 M68 23 l24 24 M92 23 l-24 24" stroke="#161616" stroke-width="1.5"/>
+          <circle cx="228" cy="35" r="17" fill="#2e5a88" stroke="#161616" stroke-width="2"/>
+          <text x="228" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff">1st</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="also">
+    <div class="label">ALSO TODAY</div>
+    <ul>
+      <li><b>Thanksgiving:</b> Trump pardons turkeys Freedom &amp; Feathers at the White House.</li>
+      <li><b>Quake:</b> Magnitude 5.9 tremor strikes the Balleny Islands region.</li>
+      <li><b>AI &amp; war:</b> India urges human oversight of AI weapons at the UN.</li>
+    </ul>
+  </div>
+
+  <div class="footer">THE GLOBAL GAZETTE &nbsp;•&nbsp; WEDNESDAY 25 NOVEMBER 2026 &nbsp;•&nbsp; ALL STORIES FIRST REPORTED ON 25 NOVEMBER 2026</div>
+
+</div>
+</body>
+</html>
